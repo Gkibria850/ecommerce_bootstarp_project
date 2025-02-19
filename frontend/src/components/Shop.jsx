@@ -10,7 +10,7 @@ const Shop = () => {
       <div className="container">
           <nav aria-label="breadcrumb py-4">
             <ol class="breadcrumb">
-              <li class="breadcrumb-item"><a href="#">Home</a></li>
+              <li class="breadcrumb-item"><a href="/">Home</a></li>
               <li class="breadcrumb-item active" aria-current="page">Shop</li>
               </ol>
           </nav>
