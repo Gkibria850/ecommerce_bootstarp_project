@@ -1,0 +1,28 @@
+ composer create-project laravel/laravel ecommerce_bootstarp_project/backend
+
+   public function up(): void
+    {
+        Schema::create('users', function (Blueprint $table) {
+            $table->id();
+            $table->string('name');
+            $table->string('email')->unique();
+            $table->enum('role',['customer','admin','manager'])->default('customer');
+            $table->timestamp('email_verified_at')->nullable();
+            $table->string('password');
+            $table->string('address')->nullable();
+            $table->string('phone')->nullable();
+            $table->rememberToken();
+            $table->timestamps();
+        });
+    }
+    php artisan migrate
+    //https://intervention.io/
+
+    composer require intervention/image
+
+    php artisan serve
+
+
+   INFO  Server running on [http://127.0.0.1:8000].
+
+   npm create vite@latest

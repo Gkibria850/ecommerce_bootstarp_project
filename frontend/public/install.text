@@ -1,0 +1,14 @@
+1.npm create vite@latest
+2.select react=> javascript=> enter=>npm install 
+3.npm i react-router-dom
+//https://react-hook-form.com/get-started
+4.npm install react-hook-form
+//https://www.npmjs.com/package/react-toastify
+5.npm i react-toastify
+6.npm install react-bootstrap bootstrap
+7.main.js=> import 'bootstrap/dist/css/bootstrap.min.css';=>enter
+
+
+//Preprocessor dependency "sass-embedded" not found. Did you install it? Try `npm install -D sass-embedded`
+
+8.npm install swiper
