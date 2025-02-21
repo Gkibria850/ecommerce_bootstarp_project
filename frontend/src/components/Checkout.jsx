@@ -78,9 +78,9 @@ const Checkout = () => {
                       </div>
                     </form>
                   </div>
-                  <div className="col-md-5">
+                  <div className="col-md-5 shadow ">
                     <h3 className="border-bottom  pb-3"> <strong>Items</strong></h3>
-                     <table className="table pb-5">
+                     <table className="table pb-5 m-2">
                                           <tbody>
                                             <tr>
                                               <th scope="col">
@@ -106,7 +106,7 @@ const Checkout = () => {
                                             </tr>
                                           </tbody>
                                         </table>
-                                         <table className="table pb-5">
+                                         <table className="table pb-5 m-2">
                                                                 <tbody>
                                                                   <tr>
                                                                     <th scope="col">
@@ -133,7 +133,7 @@ const Checkout = () => {
                                                                 </tbody>
                                                               </table>
 
-                                                                <div className="row  mx-5">
+                                                                <div className="row  mx-5 m-2">
                                                                                 <div className="col-md-12">
                                                                                     <div className="d-flex justify-content-between border-bottom pb-2">
                                                                                         <h4>Subtotal</h4>
